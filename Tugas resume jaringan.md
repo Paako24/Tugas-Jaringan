@@ -1,8 +1,10 @@
-# Tugas-Jaringan
+# Resume Tugas Jaringan
+### Bagus Setiyo Pambudi/3121600034
 
 
 
 Komputasi awan adalah model yang menawarkan layanan komputasi instan tanpa menanggung biaya. Namun, seperti teknologi lainnya, ia membawa kekurangannya. Salah satu masalah utamanya adalah masalah keamanan dan privasi termasuk kebocoran data karena infrastruktur sumber daya komputasi Bersama untuk memproses informasi bisnis rahasia seperti kekayaan intelektual, rahasia dagang, dan informasi rahasia pelanggan yang dapat menyebabkan aktort yang tidak berwenang dapat mengkaksesnya
+
 •	The Threats
 1.	Data Loss and Data Leaks
 Sebagian besar fitur perlindungan data cloud untuk perusahaan ditawarkan secara terpisah sebagai layanan opsional dan tambahan, misal : penyimpanan tambahan untukk retensi snapshot dan anti ransomware karena sumber dayanya luas dan mahal.
@@ -18,14 +20,13 @@ Penyedia layanan cloud menggunakan infrastruktur yang dapat diskalakan untuk men
 
 •	The Attack
 1.	Virtual Machine Level Attack
-Seranganpada platform Cloud yang sama dapayh mempengaruhi penyewa lainnya. Wajib bagi penyebaran Cloud apa pun untuk mengeraskan lapisan virtualisasi untuk mencegah serangan VM ke VM.\
+Seranganpada platform Cloud yang sama dapayh mempengaruhi penyewa lainnya. Wajib bagi penyebaran Cloud apa pun untuk mengeraskan lapisan virtualisasi untuk mencegah serangan VM ke VM.
 
 2.	Service and Session Hijacking
 Pembajakan Layanan dan Sesi.
 
 3.	Man in the Cloud and DDoS
 Manusia di Loud dan DDoS.
-
 
 
 •	The Security
