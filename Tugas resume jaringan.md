@@ -1,5 +1,7 @@
 # Resume Tugas Jaringan
-### Bagus Setiyo Pambudi/3121600034
+
+![Gambar Memotret](https://www.seekpng.com/png/detail/416-4164571_logo-pens-png-electronic-engineering-polytechnic-institute-of.png)
+### Bagus Setiyo Pambudi / 3121600034
 
 
 
@@ -63,6 +65,18 @@ Hindari sanksi dan hukuman.
 Mencegah kebocoran dan kerugian.
 
 •	Summary
+
 Diskusi ini menyampaikan masalah keamanan yang terkait dengan layanan cloud. Tercatat bahwa penjahat dunia maya telah mengambil keuntungan dari kerentanan dalam ekosistem bersama dan kurangnya kontrol keamanan yang efektif, yang menyebabkan penyalahgunaan platform. Peretas dapat secara ilegal mengakses informasi rahasia penyewa lain yang berada di infrastruktur cloud yang sama. Oleh karena itu, bisnis disarankan untuk melakukan penilaian risiko berkelanjutan untuk mengurangi potensi ancaman terhadap data sensitif mereka.
 
 Selanjutnya, penyedia keamanan cloud harus meningkatkan perlindungan keamanan melalui penerapan langkah-langkah keamanan proaktif yang lebih canggih dan canggih untuk mengatasi tantangan ini.
+
+
+
+
+
+
+
+
+
+
+
