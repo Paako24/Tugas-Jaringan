@@ -1,6 +1,6 @@
 # Resume Tugas Jaringan
 
-![Gambar Memotret](https://www.seekpng.com/png/detail/416-4164571_logo-pens-png-electronic-engineering-polytechnic-institute-of.png)
+![](https://www.seekpng.com/png/detail/416-4164571_logo-pens-png-electronic-engineering-polytechnic-institute-of.png)
 ### Bagus Setiyo Pambudi / 3121600034
 
 
