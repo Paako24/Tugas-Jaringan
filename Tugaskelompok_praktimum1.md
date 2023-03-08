@@ -21,17 +21,17 @@ Pastikan semua PC di meja anda mendapatkan IP address sesuai dengan gambar
 
 IP address: 192.168.10.244
 
-<img src="screenshot/ip1.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/ip1.jpg">
 
 IP address: 192.168.10.243
 
-<img src="screenshot/ip2.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/ip2.jpg">
 
 ## Akses Router RB3011 menggunakan winbox
 
 akses router RB3011 menggunakan "winbox.exe" via wine yang telah terinstall
 
-<img src="screenshot/routing.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/routing.jpg">
 
 ## Routing
 
@@ -39,11 +39,11 @@ Tambahkan routing table pada router sehingga bisa mengakses seluruh subnet pada 
 
 Tabel Routing pada winbox
 
-<img src="screenshot/routing.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/routing.jpg">
 
 Test ping pada komputer 192.168.x.x
 
-<img src="screenshot/test ping.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/test ping.jpg">
 
 ## Instalasi Virtualbox dan Ubuntu
 
@@ -53,16 +53,16 @@ Install virtualbox dengan menggunakan petunjuk yang ada pada debian copy virtual
 Ketika sudah menginstall virtualbox, setting virtual machine untuk menginstall ubuntu yang sudah disiapkan
 
  - Beri nama virtual machine dan OS yang akan diinstall
-<img src="screenshot/linux1.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux1.jpg">
 
 - Tentukan jumlah memori dan yang digunakan untuk virtual OS
-<img src="screenshot/linux2.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux2.jpg">
 
 - Tentukan jumlah storage dan yang digunakan untuk virtual OS
-<img src="screenshot/linux3.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux3.jpg">
 
 - Berikut adalah summary dari setting yang sudah disetting tadi
-<img src="screenshot/linux4.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux4.jpg">
 
 
 ### Ubuntu
@@ -70,7 +70,7 @@ Ketika sudah menginstall virtualbox, setting virtual machine untuk menginstall u
 Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
 
 
-<img src="screenshot/linux5.jpg">
+<img src="https://github.com/adityyb/Workshop-Admin-Jaringan/blob/main/Tugas3/screenshot/linux5.jpg">
 
 
 
