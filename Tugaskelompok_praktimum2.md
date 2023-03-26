@@ -1,5 +1,5 @@
 
-# Tugas Setting Hostname
+# Tugas Routing & Hostname
 
 **Kelompok 8** 
 
