@@ -3,4 +3,4 @@
 
 
 ini adalah pengumpulan tugas dari mata kuliah Administrasi Jaringan
-<img src="https://media.giphy.com/media/GeimqsH0TLDt4tScGw/giphy.gif">
+<img src="https://media.giphy.com/media/GeimqsH0TLDt4tScGw/giphy.gif"/>
