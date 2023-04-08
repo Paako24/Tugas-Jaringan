@@ -1,5 +1,5 @@
 
-# Tugas Hostname & NTP
+# Tugas Routing & Hostname
 
 **Kelompok 8** 
 
