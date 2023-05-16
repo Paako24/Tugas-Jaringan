@@ -111,36 +111,7 @@ mysqladmin -u root -p version
 ```
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_Web Server/15.jpg">
 
-## Installasi Laravel
-Install curl untuk mengirim atau menerima data melalui protokol seperti HTTP, HTTPS, FTP
-```bash
-sudo apt install curl
-```
-Gunakan curl command berikut untuk mendownload file Composer
-```bash
-url -sS https://getcomposer.org/installer | php
-```
-kemudian pindah composer.phar ke /usr/local/bin/composer
-```bash
-sudo mv composr.phar /usr/local/bin/composer
-```
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_Web Server/16.jpg">
 
-Jalankan perintah berikut untuk menginstall Laravel lewat bantuan Composer dengan folder bernama kelompok8
-```bash
-composer create-project --prefer-dist laravel/laravel kelompok8
-```
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_Web Server/17.jpg">
-
-Jika sudah, lanjutkan dengan perintah di bawah untuk menjalankan laravel dengan host 192.168.8.10 dan prt 800
-```bash
-php artisan serve --host 192.168.8.10 --port 8000
-```
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_Web Server/19.jpg">
-
-Berikut tampilan kerika sudah dijalamkan
-
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_Web Server/20.jpg">
 
 
 
