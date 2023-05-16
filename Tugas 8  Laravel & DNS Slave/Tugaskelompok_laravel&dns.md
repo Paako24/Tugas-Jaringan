@@ -1,5 +1,5 @@
 
-# Tugas DNS
+# Tugas Laravel & DNS Slave
 
 **Kelompok 8** 
 
