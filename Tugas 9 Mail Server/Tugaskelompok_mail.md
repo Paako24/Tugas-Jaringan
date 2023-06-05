@@ -253,10 +253,25 @@ Restart apache service.
 ```bash
 sudo systemctl restart apache2
 ```
+## Testing
 
+<img width="467" alt="image" src="https://github.com/Xkonz/Tugas-Jaringan/assets/117259331/06d266d8-d9c6-4193-8057-03f8dc249a75">
 
+Test kirim file menggunakan perintah telnet dengan menggunakan port 25 (SMTP). Masukkan nama alamat pengirim menggunakan mail from:. Masukkan nama alamat penerima menggunakan rcpt to:. Ketikkan data lalu enter. Isikan subject dengan megetikkan Subject: . Lalu isikan pesan yang akan dikirim kemudian isikan titik (.) untuk mengakhiri pesan.
 
+<img width="351" alt="image" src="https://github.com/Xkonz/Tugas-Jaringan/assets/117259331/ef8262fa-460f-410e-868f-62b6b0cef968">
 
+Melihat pesan menggunakan perintah telnet . Login user menggunakan user . Dan masukkan password menggunakan pass . Untuk melihat list pesan yang diterima menggunakan perintah list. Dan untuk membuka pesan yang diterima menggunakan perintah retr .
+Gunakan perintah quit untuk keluar dari telnet.
 
+<img width="208" alt="image" src="https://github.com/Xkonz/Tugas-Jaringan/assets/117259331/c19c74c1-399e-4859-885f-1284f44bc2b6">
 
+Selanjutnya buka web browser pada sisi client dan masukkan domain dari mail server (mail.kampus-02.takehome.com), maka akan muncul interface dari roundcube. Lalu login menggunakan salah satu user yang telah dibuat.
 
+<img width="267" alt="image" src="https://github.com/Xkonz/Tugas-Jaringan/assets/117259331/0d061468-1d1f-4f1e-8d4e-59c52d37bac9">
+
+Klik pada compose dan isikan pesan untuk user lainnya. Lalu klik send.
+
+<img width="269" alt="image" src="https://github.com/Xkonz/Tugas-Jaringan/assets/117259331/47d60cfc-79f0-4090-85b1-6063eb9b9a8c">
+
+Logout dan login ke user penerima, maka akan muncul pesan yang dikirim.
