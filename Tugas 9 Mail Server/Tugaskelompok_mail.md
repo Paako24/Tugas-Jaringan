@@ -206,18 +206,23 @@ dpkg-reconfigure roundcube-core
 ```
 
 Kosongkan karena kita tidak menggunakan tls.
+
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/27.png">
 
 Pilih bahasa untuk roundcube.
+
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/28.png">
 
 Pilih no jika tidak ingin reinstall database yang telah dibuat.
+
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/30.png">
 
 Check pada pilihan apache dan uncheck lighttpd.
+
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/31.png">
 
 Pilih yes untuk merestart web server.
+
 <img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/32.png">
 
 Edit apache config untuk memasukkan konfigurasi tambahan dari roundcube ke apache config.
