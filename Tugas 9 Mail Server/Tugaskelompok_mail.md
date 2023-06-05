@@ -1,5 +1,5 @@
 
-# Tugas Laravel & DNS Slave
+# Tugas Mail Server
 
 **Kelompok 8** 
 
@@ -23,11 +23,11 @@ apt install postfix dovecot-imapd dovecot-pop3d
 
 Setelah installasi selesai akan muncul message box, kemudian pilih internet site agar komunikasi email menggunakan protokol SMTP secara langsung.
 
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/2.png">
 
 Selanjutnya masukkan nama domain yang akan digunakan.
 
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/3.png">
 
 Setelah itu, postfix akan menyelesaikan installasinya. Setelah Installasi selesai, edit file di /etc/postfix/main.cf dan tambahkan home_mailbox = Maildir/ pada baris paling bawah.
 
@@ -57,15 +57,15 @@ dpkg-reconfigure postfix
 
 Pilih beberapa pilihan dan isikan beberapa input yang akan muncul, sesuaikan dengan topology/konfigurasi sistem dan kebutuhan.
 
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/5.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/6.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/7.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/8.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/9.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/10.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/11.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/12.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/13.png">
 
 Restart postfix service.
 
@@ -146,12 +146,12 @@ apt install mariadb-server roundcube
 
 Pilih yes untuk membuat database secara otomatis oleh roundcube.
 
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/19.png">
 
 Masukkan password database roundcube.
 
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/20.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/21.png">
 
 Edit file /etc/roundcube/config.inc.php.
 
@@ -184,11 +184,20 @@ $config['smtp_port'] = 25;
 ```
 
 Kosongkan value dari smtp user.
-
+```bash
+...
+// will use the current username for login
+$config['smtp_user'] = '';
+...
+```
 
 Kosongkan value dari smtp password
-
-
+```bash
+....
+// will use the current user's password for login
+$config['smtp_pass'] = '';
+...
+```
 
 Configure ulang roundcube (langkah ini bisa dilewati).
 
@@ -197,21 +206,19 @@ dpkg-reconfigure roundcube-core
 ```
 
 Kosongkan karena kita tidak menggunakan tls.
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/27.png">
 
 Pilih bahasa untuk roundcube.
-<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_main/21.png">
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/28.png">
 
 Pilih no jika tidak ingin reinstall database yang telah dibuat.
-
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/30.png">
 
 Check pada pilihan apache dan uncheck lighttpd.
-
-
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/31.png">
 
 Pilih yes untuk merestart web server.
-
-
+<img src="https://github.com/Xkonz/Tugas-Jaringan/blob/main/pic/Tugas_mail/32.png">
 
 Edit apache config untuk memasukkan konfigurasi tambahan dari roundcube ke apache config.
 ```bash
