@@ -254,6 +254,23 @@ Restart apache service.
 sudo systemctl restart apache2
 ```
 
+## Testing
+<img width="469" alt="image" src="https://github.com/wimanmja/Workshop-Administrasi-Jaringan/assets/117259331/07e2e170-d085-4939-bd2b-7dfc1e05077f">
+
+Test kirim file menggunakan perintah telnet dengan menggunakan port 25 (SMTP). Masukkan nama alamat pengirim menggunakan mail from:. Masukkan nama alamat penerima menggunakan rcpt to:. Ketikkan data lalu enter. Isikan subject dengan megetikkan Subject: . Lalu isikan pesan yang akan dikirim kemudian isikan titik (.) untuk mengakhiri pesan.
+
+<img width="350" alt="image" src="https://github.com/wimanmja/Workshop-Administrasi-Jaringan/assets/117259331/5b274b16-aba6-42b5-b7c5-89d9995d743e">
+
+Melihat pesan menggunakan perintah telnet . Login user menggunakan user . Dan masukkan password menggunakan pass . Untuk melihat list pesan yang diterima menggunakan perintah list. Dan untuk membuka pesan yang diterima menggunakan perintah retr .
+Gunakan perintah quit untuk keluar dari telnet.
+
+<img width="267" alt="image" src="https://github.com/wimanmja/Workshop-Administrasi-Jaringan/assets/117259331/b34246cf-1caa-4344-95e3-e992f4f58687">
+
+Klik pada compose dan isikan pesan untuk user lainnya. Lalu klik send.
+
+<img width="267" alt="image" src="https://github.com/wimanmja/Workshop-Administrasi-Jaringan/assets/117259331/d0869c8d-ef5b-424d-9941-748843228117">
+
+Logout dan login ke user penerima, maka akan muncul pesan yang dikirim.
 
 
 
